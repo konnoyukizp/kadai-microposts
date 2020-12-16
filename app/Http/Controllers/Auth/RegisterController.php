@@ -22,6 +22,8 @@ class RegisterController extends Controller
     |
     */
 
+    //ここのuseでshowRegistrationForm アクションと register アクションを取り込む
+    //RegistersUsersはトレイト（単にいくつかの機能（メソッド）をまとめているもの）
     use RegistersUsers;
 
     /**
