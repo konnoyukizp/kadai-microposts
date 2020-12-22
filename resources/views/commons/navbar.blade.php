@@ -21,7 +21,7 @@
                             <li class="dropdown-divider"></li>
                             {{-- お気に入り一覧へのリンク --}}
                             <li class="dropdown-item">
-                                <a href="{{ route('users.favorites', ['id' => $user->id]) }}">
+                                <a href="{{ route('users.favorites', ['id' => Auth::id()]) }}">
                                     Favorites
                                 </a>
                             </li>
